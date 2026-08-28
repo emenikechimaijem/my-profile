@@ -1,0 +1,47 @@
+body{
+    background-color:#e0ffff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    font-family:sans-serif;
+}
+.container{
+    border:2px dotted grey;
+    width:500px;
+    background-color:white;
+    padding:20px;
+    text-align:center;
+}
+img{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+}
+.buttons{
+    margin-top:20px;
+}
+.like{
+    margin-right:15px;
+    margin-left:15px;
+    border:2px solid #267ced;
+    padding:8px 15px 8px 15px;
+    background-color:white;
+    color:#267ced;
+
+}
+.follow{
+    margin-left:15px;
+    border:none;
+    padding:8px 15px 8px 15px;
+    background-color: #267ced;
+    color:white;
+}
+h2{
+    font-size:25px;
+}
+#myselection{
+    height:100px;
+    width:100px;
+    background-color:darkgoldenrod
+}
